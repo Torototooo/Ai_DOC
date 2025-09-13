@@ -1,0 +1,31 @@
+/* General Page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.3s ease-in-out;
+}
+
+/* File Input */
+input[type="file"] {
+  border: 2px dashed #93c5fd;
+  padding: 14px;
+  background-color: #f9fafb;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+input[type="file"]:hover {
+  border-color: #2563eb;
+  background-color: #eff6ff;
+}
+
+/* Table Rows */
+#documentList tr:hover {
+  background-color: #f3f4f6;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Buttons */
+button {
+  transition: transform 0.15s ease-in-out, background-color 0.2s ease-in-out;
+}
+button:hover {
+  transform: scale(1.05);
+}
